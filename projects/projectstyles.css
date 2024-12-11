@@ -14,7 +14,7 @@ html{
 
   body {
     margin: 0;
-    cursor: url("..assets/cursor.png"), auto;
+    cursor: url("../assets/cursor.png"), auto;
   }
   
   h1 {
@@ -162,7 +162,7 @@ html{
   .StartMenu {
     display: none;
     grid-area: 2 / 1 / 3 / 3;
-    background-image: url("assets/ui/startmenu.png");
+    background-image: url("../assets/ui/startmenu.png");
     background-size: auto 540px;
     background-position: 2px bottom;
     background-repeat: no-repeat; */
@@ -187,7 +187,7 @@ html{
   
   .Time {
     grid-area: 3 / 5 / 4 / 6;
-    background-image: url("assets/ui/tab.png");
+    background-image: url("../assets/ui/tab.png");
     background-size: 173px 51px;
     height: 100%;
     z-index: 1;
@@ -230,7 +230,7 @@ html{
     width: auto;
     height: auto;
     position: absolute; /* Ensure it's absolute for positioning */
-    background-image: url("assets/ui/window.png");
+    background-image: url("../assets/ui/window.png");
     background-size: cover;
     background-repeat: no-repeat;
     cursor: move; /* Change cursor to indicate draggable */
